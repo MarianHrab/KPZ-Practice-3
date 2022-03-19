@@ -1,4 +1,5 @@
 
+
 def palindrom(text):
 
     #put the words from imput to word list
@@ -23,3 +24,6 @@ def palindrom(text):
 
 
 palindrom("abc addd ababa qwertyytrewq ada ")
+
+
+
