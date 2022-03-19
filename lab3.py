@@ -9,8 +9,8 @@ def palindrom(text):
     word_list =[]
     temp = ''
     for character in text:
-        if character.isalpha(): # checking is it every character is from alphabet
-            temp += character # add to the temporary variable
+        if character.isalpha():  # checking is it every character is from alphabet
+            temp += character  # add to the temporary variable
         else:  # if it's not the character is alphabet, add our word to wordlist, and clear the temp variable
             word_list.append(temp)
             temp = ''
@@ -44,7 +44,7 @@ validate_ip("192.168.1.424")
 
 
 def get_os():
-    return print(platform.system())
+    return platform.system()
 
 
 get_os()
