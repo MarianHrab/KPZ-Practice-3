@@ -27,7 +27,7 @@ def palindrome(text):
     return pal_words
 
 
-print(palindrome("abc ada abba a"))
+palindrome("abc ada abba a")
 
 def validate_ip(ip_address):
     ip_validate = False
